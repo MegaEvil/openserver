@@ -16,7 +16,7 @@ display_startup_errors         = Off
 Ну и в админке битрикса не подключаются файлы со стилями начинающиеся с .
 Комментим блок 
 #<LocationMatch "/\.(?!well-known)">
- #   Require            all denied
+#Require            all denied
 #</LocationMatch>
 
 в файле httpd.conf в конфиге папке с конфигом php
